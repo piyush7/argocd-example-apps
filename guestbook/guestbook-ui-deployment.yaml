@@ -24,5 +24,3 @@ spec:
             cpu: "500m"
       imagePullSecrets:
       - name: us-east-1-ecr-registry
-      securityContext:
-        runAsUser: 1000
