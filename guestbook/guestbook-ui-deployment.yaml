@@ -22,3 +22,5 @@ spec:
           limits:
             memory: "256Mi"
             cpu: "500m"
+      imagePullSecrets:
+      - name: us-east-1-ecr-registry
